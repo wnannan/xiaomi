@@ -73,10 +73,11 @@ window.onload=function(){
 		let days = Math.floor(times/60/60/24);
 		let hours = Math.floor(times/60/60%24);
 		let min = Math.floor(times/60%60);
+		let sec = Math.floor(times%60);
 
-		pp[0].innerHTML = days;
-		pp[1].innerHTML = hours;
-		pp[2].innerHTML = min;
+		pp[0].innerHTML = hours;
+		pp[1].innerHTML = min;
+		pp[2].innerHTML = sec;
 	},1000);
 
 	//平移轮播
