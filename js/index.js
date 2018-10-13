@@ -62,8 +62,8 @@ window.onload=function(){
 	// console.log(pp);
 	let qiu = new Date();
 	qiu.setFullYear(2018);
-	qiu.setMonth(8,21);
-	qiu.setHours(18,0,0);
+	qiu.setMonth(12,25);
+	qiu.setHours(0,0,0);
 	let zhong = qiu.getTime();
 	// console.log(zhong);
 	let t = setInterval(function(){
